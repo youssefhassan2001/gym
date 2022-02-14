@@ -1,0 +1,50 @@
+.package{
+border: 10px solid red;
+width: 100%;
+padding: 50px;
+margin-top: 7%;
+}
+.package .trans{
+    display: flex;
+    justify-content: center;
+    
+}
+.package .trans div{
+    display: flex;
+    border: 10px solid red;
+    align-items: center;
+    margin-right: 40px;
+}
+.package img{
+    position: relative;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    align-self: center;
+    left: 13.5px;
+    
+}
+.package h1{
+font-size: 100px;
+text-transform: capitalize;
+margin-bottom: 100px;
+margin-top: 50px;
+}
+.package h1 ,.package .trans h1{
+     width: 100%;
+    color: white;
+    text-align: center;
+}
+.package .trans h1{
+    font-size: 50px;
+}
+hr{
+    background-color: red;
+    height: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.package .trans div:hover{
+    background-color: red;
+    border: orangered 10px solid;
+}

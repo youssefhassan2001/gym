@@ -1,0 +1,41 @@
+body{
+    background-image: url(../image/—Pngtree—fitness\ night\ fitness\ handsome\ guy_1528321.jpg) ;
+}
+#joGym ,#join{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+#joGym{
+    font-size: 150px;
+    top: 40%;
+    color:white;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 10px rgb(202, 78, 64) solid;
+    border-right-color:transparent;
+    left: 70%;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+#join{
+    width: max-content;
+    font-size: 70px;
+    top: 42%;
+    left: 76%;
+}
+#join a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(1turn);
+    }
+}

@@ -1,0 +1,9 @@
+.package{
+    position: relative;
+    border: 10px red solid;
+    height: 88%;
+    bottom: 100px;
+}
+.package .cont{
+    height: 100%;
+}

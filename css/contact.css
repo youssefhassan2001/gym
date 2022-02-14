@@ -1,0 +1,50 @@
+.package .contact{
+    border: rgba(255, 0, 0, 0.788) 10px solid;
+}
+.package .contact h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 120px;
+}
+.package .contact img {
+    width: 100%;
+}
+.package .contact label{
+color: whitesmoke;
+font-size: 50px;
+text-transform: capitalize;
+padding-left: 10px;
+}
+.package .contact input{
+    width: 70%;
+    height: 80px;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.package .contact .form .ex{
+    position: relative;
+    left: 72%;
+    top: -80px;
+    height: 80px;
+    width: 30%;
+    background-color: gray;
+    font-size: 45px;
+    color: #000;
+}
+#mes{
+    position: relative;
+    top: -70px;
+    left: 10px;
+}
+.package .contact .form  textarea{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+    font-size: 50px;
+}
+.package .contact .form .btn{
+    font-size: 80px;
+    margin-left: 80%;
+    background-color: rgba(255, 0, 0, 0.788);
+    color: whitesmoke;
+}
